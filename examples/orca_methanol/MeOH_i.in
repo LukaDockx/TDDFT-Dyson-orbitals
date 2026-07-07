@@ -1,0 +1,30 @@
+! UKS wB97X-D3 cc-pVDZ TightSCF NoSym
+
+%pal
+  nprocs 4
+end
+
+%maxcore 2000
+
+%scf
+  MaxIter 2000
+end
+
+%tddft
+  NRoots 6
+  TDA true
+end
+
+%output
+  Print[P_Basis] 2
+  Print[P_MOs] 1
+end
+
+* xyz 1 2
+ C    0.0000000   -0.0147269    0.7156012
+ O    0.0000000    0.0695525   -0.6801439
+ H    0.0000000    1.0112743    1.1376602
+ H    0.0000000   -0.8665191   -1.0095561
+ H    0.9151188   -0.5366486    1.0703452
+ H   -0.9151188   -0.5366486    1.0703452
+*

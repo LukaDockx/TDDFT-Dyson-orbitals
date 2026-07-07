@@ -1,0 +1,13 @@
+TDDFT/TDA Dyson orbital report (qchem)
+Amplitude cutoff: 0.01
+Written orbital coefficients normalized for viewing: False
+IQmol EOM-IP compatibility labels: True
+
+MO column  FCHK label  State  Excitation(eV)  Vertical IP(eV)  Norm  AlphaNorm  BetaNorm  DominantSpin
+        1  EOM-IP  1/A      0        0.000000        10.603375   0.97683    0.00000   0.97683  beta
+        2  EOM-IP  2/A      1        1.731800        12.335175   0.97692    0.00000   0.97692  beta
+        3  EOM-IP  3/A      2        4.201300        14.804675   0.97606    0.00000   0.97606  beta
+        4  EOM-IP  4/A      3        5.291300        15.894675   0.95533    0.00000   0.95533  beta
+        5  EOM-IP  5/A      4        6.660900        17.264275   0.97355    0.00000   0.97355  beta
+        6  EOM-IP  6/A      5       10.556500        21.159875   0.00166    0.00000   0.00166  beta
+        7  EOM-IP  7/A      6       11.161200        21.764575   0.03767    0.00000   0.03767  beta

@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Large program-specific binary/scratch files. The examples use portable
+# text fchk/Molden/log files instead.
+*.chk
+*.rwf
+*.gbw
+*.ges
+*.densities
+*.densitiesinfo
+*.tmp
+nohup.out
+
+# Generated default outputs.
+tddft_dyson.fchk
+tddft_dyson.molden
+tddft_dyson_report.txt
+
+# Original local working files retained outside the packaged examples.
+/MeOH*
+/gaussian/
+/orca/
+/test_TZ/
+/nohup.out

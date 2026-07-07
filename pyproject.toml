@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tddft-dyson"
+version = "0.1.0"
+description = "TDDFT/TDA Dyson orbital calculator for Q-Chem, Gaussian 16, and ORCA outputs."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy"]
+license = {text = "MIT"}
+authors = [
+    {name = "TDDFT Dyson contributors"}
+]
+
+[project.scripts]
+TDDFT_DO = "tddft_dyson.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,17 @@
+%chk=MeOH_n.chk
+%rwf=MeOH_n.rwf
+%nprocshared=4
+%mem=8GB
+#P UWB97XD/cc-pVDZ SCF=(MaxCycle=2000,XQC) NoSymm Pop=Full GFInput GFPrint Density=Current 5D 7F
+
+MeOH neutral wb97xd/cc-pVDZ
+
+0 1
+ C    0.0000000   -0.0147269    0.7156012
+ O    0.0000000    0.0695525   -0.6801439
+ H    0.0000000    1.0112743    1.1376602
+ H    0.0000000   -0.8665191   -1.0095561
+ H    0.9151188   -0.5366486    1.0703452
+ H   -0.9151188   -0.5366486    1.0703452
+
+
