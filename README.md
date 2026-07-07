@@ -8,6 +8,8 @@ The code writes:
 - a Molden file containing the Dyson orbitals and basis set
 - a text report with excitation energies, vertical IPs, norms, and dominant spin components
 
+The determinant-overlap expression is implemented in the package source.
+
 ## Install
 
 From this directory:
@@ -52,12 +54,16 @@ Gaussian 16:
 - neutral/cation `.fchk` via `-nfchk` and `-ifchk`
 - alternatively, pass `.chk` files with `-nchk` and `-ichk`; the script will call `formchk`
 
+If you generate the Gaussian formatted checkpoints yourself, run `formchk neutral.chk neutral.fchk` and `formchk cation.chk cation.fchk` after the Gaussian jobs finish.
+
 ORCA:
 
 - neutral output: `-nout`
 - cation output with TDA excited states: `-iout`
 - neutral/cation Molden files via `-nmolden` and `-imolden`
 - alternatively, pass `.gbw` files with `-ngbw` and `-igbw`; the script will call `orca_2mkl -molden`
+
+If you generate the ORCA Molden files yourself, run `orca_2mkl neutral_basename -molden` and `orca_2mkl cation_basename -molden`, where the basename omits the `.gbw` extension.
 
 ## Basic CLI Usage
 
