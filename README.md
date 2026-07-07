@@ -8,8 +8,6 @@ The code writes:
 - a Molden file containing the Dyson orbitals and basis set
 - a text report with excitation energies, vertical IPs, norms, and dominant spin components
 
-The determinant-overlap expression follows the supporting information in `Supporting_info_Dyson.pdf`.
-
 ## Install
 
 From this directory:
