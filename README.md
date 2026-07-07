@@ -30,7 +30,7 @@ Without installation, run from the checkout with:
 PYTHONPATH=src python -m tddft_dyson --help
 ```
 
-The old script name is kept as a wrapper:
+You can use the Dyson_tddft.py script as a wrapper:
 
 ```bash
 python Dyson_tddft.py --help
@@ -54,7 +54,7 @@ Gaussian 16:
 - neutral/cation `.fchk` via `-nfchk` and `-ifchk`
 - alternatively, pass `.chk` files with `-nchk` and `-ichk`; the script will call `formchk`
 
-If you generate the Gaussian formatted checkpoints yourself, run `formchk neutral.chk neutral.fchk` and `formchk cation.chk cation.fchk` after the Gaussian jobs finish.
+To generate the Gaussian formatted checkpoints, run `formchk neutral.chk neutral.fchk` and `formchk cation.chk cation.fchk` after the Gaussian jobs finish.
 
 ORCA:
 
@@ -63,7 +63,7 @@ ORCA:
 - neutral/cation Molden files via `-nmolden` and `-imolden`
 - alternatively, pass `.gbw` files with `-ngbw` and `-igbw`; the script will call `orca_2mkl -molden`
 
-If you generate the ORCA Molden files yourself, run `orca_2mkl neutral_basename -molden` and `orca_2mkl cation_basename -molden`, where the basename omits the `.gbw` extension.
+To generate the requiered ORCA Molden files, run `orca_2mkl neutral_basename -molden` and `orca_2mkl cation_basename -molden`, where the basename omits the `.gbw` extension.
 
 ## Basic CLI Usage
 
