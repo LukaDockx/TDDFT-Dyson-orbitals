@@ -94,7 +94,7 @@ TDDFT_DO ... --no-molden
 
 ## Examples
 
-The `examples/` directory contains portable methanol examples. Q-Chem and Gaussian examples use `.fchk`, and ORCA examples use Molden files.
+The `examples/` directory contains examples on how to compute dyson orbitals on the valence ionization of methanol. Q-Chem and Gaussian examples use `.fchk`, and ORCA examples use Molden files.
 
 Q-Chem:
 
