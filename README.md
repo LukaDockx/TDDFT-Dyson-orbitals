@@ -160,7 +160,7 @@ for state in result.dyson_states:
 
 ## IQmol Notes
 
-IQmol recognizes Dyson orbital surface records from Q-Chem EOM-IP calculations. For that reason, the `.fchk` writer labels the TDDFT Dyson records as `Ref - EOM-IP ...` and writes `Dyson Orbital (left/right)` sections. These are TDDFT/TDA Dyson orbitals; the EOM-IP naming is only an IQmol compatibility convention.
+IQmol is a free and open-source GUI that can be easily used to visualize orbitals. It however recognizes Dyson orbitals only from Q-Chem EOM-IP calculations. For that reason, the iqmol `.fchk` writer labels the TDDFT Dyson records as `Ref - EOM-IP ...` and writes `Dyson Orbital (left/right)` sections. These are TDDFT/TDA Dyson orbitals; the EOM-IP naming is only an IQmol compatibility convention.
 
 The same dominant Dyson component is also written into the first alpha MO columns so IQmol can plot them from the canonical orbital surface menu if needed. The report maps MO column numbers back to TDDFT state numbers.
 
