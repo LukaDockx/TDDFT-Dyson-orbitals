@@ -36,7 +36,7 @@ python Dyson_tddft.py --help
 
 ## Required Inputs
 
-All programs need the neutral and cation output files because the script reads SCF energies from them. The cation output must also contain the TDDFT/TDA excitation amplitudes.
+See 'examples' folder for how to setup single point calculations on the neutral and ionic states for Q-Chem / Gaussian / Orca.
 
 Q-Chem:
 
